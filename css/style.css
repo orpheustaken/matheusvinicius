@@ -1,12 +1,12 @@
 header {
-    background-image: url("assets/black_texture.jpg");
+    background-image: url("./assets/black_texture.jpg");
     background-color: #121212;
     color: #eeeeee;
     margin-bottom: 5vh;
 }
 
 body {
-    background-image: url("assets/gray_texture.jpg");
+    background-image: url("./assets/gray_texture.jpg");
     background-color: #eeeeee;
     color: #121212;
     height: 100vh;
