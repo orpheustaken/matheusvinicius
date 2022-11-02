@@ -1,12 +1,14 @@
 header {
-    background-image: url("/assets/black_texture.jpg");
+    background-image: url("assets/black_texture.jpg");
     background-color: #121212;
+    color: #eeeeee;
     margin-bottom: 5vh;
 }
 
 body {
-    background-image: url("/assets/gray_texture.jpg");
-    background-color: #707070;
+    background-image: url("assets/gray_texture.jpg");
+    background-color: #eeeeee;
+    color: #121212;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -14,7 +16,6 @@ body {
     flex-direction: column;
     font-family: hack;
     text-align: center;
-    color: #ededed;
 }
 
 .subtitle, footer {
@@ -31,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: #ededed;
+    color: #707070
 }
 
 .list {
