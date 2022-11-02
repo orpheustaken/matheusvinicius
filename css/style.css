@@ -1,11 +1,11 @@
 header {
-    background-image: url("./assets/black_texture.jpg");
+    background-image: url("/assets/black_texture.jpg");
     background-color: #121212;
     margin-bottom: 5vh;
 }
 
 body {
-    background-image: url("./assets/gray_texture.jpg");
+    background-image: url("/assets/gray_texture.jpg");
     background-color: #707070;
     height: 100vh;
     padding: 0;
