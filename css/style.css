@@ -1,0 +1,46 @@
+header {
+    background-image: url("/assets/black_texture.jpg");
+    background-color: #121212;
+    margin-bottom: 5vh;
+}
+
+body {
+    background-image: url("/assets/gray_texture.jpg");
+    background-color: #707070;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: hack;
+    text-align: center;
+    color: #ededed;
+}
+
+.subtitle, footer {
+    font-size: small;
+}
+
+p {
+    margin-bottom: 0.5vh;
+}
+
+a {
+    text-decoration: none;
+    color: #121212;
+}
+
+a:hover {
+    color: #ededed;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 2vh;
+}
