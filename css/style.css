@@ -1,16 +1,19 @@
 header {
-    /* background-image: url("assets/black_texture.jpg"); */
-    background-image: url("https://user-images.githubusercontent.com/63078965/199571877-4b2e3845-9f2b-425f-9910-73c21840595e.jpg");
-    background-color: #121212;
-    color: #eeeeee;
+    /* background-image: url("https://raw.githubusercontent.com/orpheustaken/dotfiles/master/wallpapers/goddess.jpg"); */
+    /* background-size: cover; */
+    background-color: #303030;
+    color: #505050;
     margin-bottom: 5vh;
+    border-bottom: 2px solid;
+}
+
+.bar {
+    color: #ededed;
 }
 
 body {
-    /* background-image: url("assets/gray_texture.jpg"); */
-    background-image: url("https://user-images.githubusercontent.com/63078965/199572136-7a92bca1-8e25-4973-817a-d83a3bbecb4e.jpg");
-    background-color: #eeeeee;
-    color: #121212;
+    background-color: #151515;
+    color: #ededed;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -30,11 +33,11 @@ p {
 
 a {
     text-decoration: none;
-    color: #121212;
+    color: #ededed;
 }
 
 a:hover {
-    color: #707070
+    color: #909090;
 }
 
 .list {
