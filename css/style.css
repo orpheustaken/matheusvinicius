@@ -1,5 +1,5 @@
 header {
-    background-image: ("assets/header_texture.png");
+    background-image: url("../assets/header_texture.png");
     background-size: cover;
     background-color: #151515;
     background-position: center;
@@ -15,7 +15,7 @@ header {
 }
 
 body {
-    background-image: ("assets/newspaper_texture.png");
+    background-image: url("../assets/newspaper_texture.png");
     background-color: #151515;
     color: #ededed;
     height: 100vh;
