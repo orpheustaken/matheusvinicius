@@ -1,7 +1,9 @@
 header {
-    /* background-image: url("https://raw.githubusercontent.com/orpheustaken/dotfiles/master/wallpapers/goddess.jpg"); */
-    /* background-size: cover; */
-    background-color: #303030;
+    background-image: url("https://raw.githubusercontent.com/orpheustaken/dotfiles/master/wallpapers/assets/header_texture.png");
+    background-size: cover;
+    background-color: #151515;
+    background-position: center;
+    opacity: 75%;
     color: #505050;
     margin-bottom: 5vh;
     border-bottom: 2px solid;
@@ -9,9 +11,11 @@ header {
 
 .bar {
     color: #ededed;
+    /* text-shadow: 0.7px 0.7px 1px #151515; */
 }
 
 body {
+    background-image: url("https://raw.githubusercontent.com/orpheustaken/dotfiles/master/wallpapers/assets/newspaper_texture.png");
     background-color: #151515;
     color: #ededed;
     height: 100vh;
