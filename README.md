@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Personal Website</h1>
-  <p>I never properly learned HTML, CSS and this project doesn't even use JavaScript</p>
+  <p>Static website using HTML and CSS only</p>
 </div>
 
 ### Why:
