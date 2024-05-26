@@ -3,6 +3,4 @@
   <p>Static website using HTML and CSS only</p>
 </div>
 
-### Why:
-
 The main purpose of this project is for me to have a single place where I can aggregate all my links, contact information and projects.
