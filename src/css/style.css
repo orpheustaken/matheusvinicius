@@ -1,7 +1,7 @@
 header {
 /*     background-image: url("../assets/header_texture.png"); */
     background-size: cover;
-    background-color: #151515;
+    background-color: #010409;
     background-position: center;
     opacity: 75%;
     color: #505050;
@@ -16,7 +16,7 @@ header {
 
 body {
 /*     background-image: url("../assets/newspaper_texture.png"); */
-    background-color: #151515;
+    background-color: #0d1117;
     color: #ededed;
     height: 100vh;
     padding: 0;
