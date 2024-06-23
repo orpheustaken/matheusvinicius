@@ -10,14 +10,14 @@ header {
 }
 
 .bar {
-    color: #ededed;
+    color: #e6edf3;
     /* text-shadow: 0.7px 0.7px 1px #151515; */
 }
 
 body {
 /*     background-image: url("../assets/newspaper_texture.png"); */
     background-color: #0d1117;
-    color: #ededed;
+    color: #e6edf3;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -37,7 +37,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #ededed;
+    color: #e6edf3;
 }
 
 a:hover {
