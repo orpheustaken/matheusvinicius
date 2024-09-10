@@ -23,7 +23,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: roboto;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     text-align: center;
 }
 
