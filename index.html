@@ -1,41 +1,130 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
     <title>Matheus Fernandes</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="bar">
-            <h2>Matheus Fernandes</h2>
-            <h4>Software Engineer</h4>
-            <div class="subtitle">
-                <p>See the urls below for my projects and contact information</p>
-                <br>
-            </div>
-        </div>
+      <div class="container">
+        <h1>Matheus Fernandes</h1>
+        <p class="subtitle">Software Engineer</p>
+      </div>
     </header>
+    <nav>
+      <ul class="container">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <main>
-        <div class="list">
-                <p><a href="https://registry.jsonresume.org/orpheustaken" target="_blank">Resume</a></p>
-                <p><a href="https://github.com/orpheustaken" target="_blank">GitHub</a></p>
-                <p><a href="https://gist.github.com/orpheustaken" target="_blank">GitHub Gist</a></p>
-                <p><a href="https://gitlab.com/orpheustaken" target="_blank">GitLab</a></p>
-                <p><a href="https://linkedin.com/in/matheusvfernandes/" target="_blank">LinkedIn</a></p>
-                <p><a href="https://youtube.com/channel/UCMuid9u3ARvhSi2e1ShzTBA" target="_blank">YouTube</a></p>
-                <p><a href="https://x.com/orpheustaken" target="_blank">Twitter, or now X</a></p>
-                <p><a href="https://discord.com/users/orpheustaken#8798" target="_blank">Discord</a></p>
-                <p><a href="https://reddit.com/user/_orpheustaken" target="_blank">Reddit</a></p>
-                <p><a href="mailto:matheusvinicius7000@gmail.com" target="_blank">Mail</a></p>
+      <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+          Software QA Engineer by trade, Software Craftsman at heart, with an
+          academic background in Computer Science.
+        </p>
+        <p>
+          I bring professional experience in Python, Java, and JavaScript,
+          specializing in writing testing and ancillary software for complex
+          applications and services. Occasionally, I contribute to Open Source
+          projects in C++.
+        </p>
+        <p>
+          Complete résumé available at:
+          <a href="https://registry.jsonresume.org/orpheustaken" target="_blank"
+            >registry.jsonresume.org/orpheustaken</a
+          >
+        </p>
+      </section>
+      <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3><a href="https://github.com/orpheustaken/chip-8-emulator" target="_blank">CHIP-8 Emulator</a></h3>
+          <p>
+            CHIP-8 is an interpreted programming language and virtual machine
+            developed in the mid-70s that I emulated in Python.
+          </p>
         </div>
+        <div class="project">
+          <h3><a href="https://github.com/orpheustaken/retrosnake" target="_blank">Retro Snake</a></h3>
+          <p>
+            Retro Snake is my love letter to the old arcades written in
+            JavaScript to run in browsers.
+          </p>
+        </div>
+        <div class="project">
+          <h3><a href="https://github.com/orpheustaken/tideman" target="_blank">Tideman</a></h3>
+          <p>
+            Ranked pairs (RP) or the Tideman method is an electoral system
+            developed in 1987 by Nicolaus Tideman that selects a single winner
+            using votes that express preferences. Written in C while at CS50.
+          </p>
+        </div>
+        <div class="project">
+          <h3><a href="https://github.com/SerenityOS/serenity" target="_blank">SerenityOS</a></h3>
+          <p>
+            SerenityOS was created by Andreas Kling and is continuously
+            developed and maintained by hobbyists. It has taught me most of what
+            I know about C++ and Operating Systems in general.
+          </p>
+        </div>
+        <div class="project">
+          <h3><a href="https://github.com/orpheustaken/tinyrenderer" target="_blank">Tiny Renderer</a></h3>
+          <p>
+            Tiny Renderer is my fork of an educational project that teaches how
+            OpenGL works in less than 500 lines of C++.
+          </p>
+        </div>
+      </section>
+      <section id="contact" class="container">
+        <div class="contact">
+          <h2>Contact</h2>
+          <p>Feel free to reach out to me via:</p>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:matheusvinicius7000@gmail.com"
+                >matheusvinicius7000@gmail.com</a
+              >
+            </li>
+            <li>
+              LinkedIn:
+              <a
+                href="https://linkedin.com/in/matheusvfernandes/"
+                target="_blank"
+                >linkedin.com/in/matheusvfernandes</a
+              >
+            </li>
+            <li>
+              GitHub:
+              <a href="https://github.com/orpheustaken" target="_blank"
+                >github.com/orpheustaken</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer>
-        <a href="https://github.com/orpheustaken/matheusvinicius" target="_blank">Source Code</a>
-    </footer>
-</body>
+  </body>
+  <footer>
+    <div class="container">
+      <p>
+        <span class="copyleft">&copy;</span> 2025 orpheustaken. All rights
+        reversed:
+        <a href="https://github.com/orpheustaken/matheusvinicius" target="_blank">Source Code</a
+        >.
+      </p>
+    </div>
+  </footer>
 </html>
