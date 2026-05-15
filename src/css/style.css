@@ -42,27 +42,26 @@ header .subtitle {
 .hero-links {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  margin-top: 18px;
+  gap: 8px;
+  margin-top: 16px;
   flex-wrap: wrap;
 }
 
 .hero-links a {
   color: #e6edf3;
-  background-color: #161b22;
+  background-color: #21262d;
   border: 1px solid #30363d;
   border-radius: 6px;
-  padding: 8px 14px;
-  transition: background-color 0.2s ease,
-              border-color 0.2s ease,
-              transform 0.2s ease;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 .hero-links a:hover {
-  background-color: #21262d;
-  border-color: #4493f8;
+  background-color: #30363d;
+  border-color: #8b949e;
   text-decoration: none;
-  transform: translateY(-1px);
 }
 
 nav {
